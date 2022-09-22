@@ -5,11 +5,10 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-2 font-weight-bold mb-4">Stake and Earn</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                JM helps investors compound their cryptocurrency investments <br />
+                Grow your Crypto with Secure Staking<br />
               </h1>
               <v-btn
                 rounded
@@ -130,7 +129,10 @@
 </template>
 
 <script>
+
 export default {
+  components: {
+  },
   data() {
     return {
       dialog: false,
