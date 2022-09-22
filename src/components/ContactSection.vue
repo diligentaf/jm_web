@@ -5,20 +5,10 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contate-nos</h1>
-              <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Telefone: +xx (xx) xxxxx-xxxx
-              </h3>
+              <h1 class="font-weight-light display-1">Contact us</h1><br></br>
+             
               <h3 class="font-weight-light">
-                Email: email@email.com
+                Email: moog@jmnode.com
               </h3>
             </v-col>
             <v-col cols="12" sm="7">
@@ -26,7 +16,7 @@
                 <v-text-field
                     v-model="name"
                     :rules="nameRules"
-                    label="Nome"
+                    label="Name"
                     required
                 ></v-text-field>
 
@@ -40,7 +30,7 @@
                 <v-textarea
                     v-model="textArea"
                     :rules="textAreaRules"
-                    label="Mensagem"
+                    label="Message"
                     required
                 />
 
@@ -111,18 +101,18 @@ export default {
     valid: true,
     name: "",
     nameRules: [
-      (v) => !!v || "O campo nome é obrigatório",
-      (v) => (v && v.length >= 6) || "O nome precisa ter mais de 6 caracteres",
+      (v) => !!v || "Name is an essential field",
+      (v) => (v && v.length >= 1) || "Name should be longer than 1 letter",
     ],
     email: "",
     emailRules: [
-      (v) => !!v || "O campo email é obrigatório",
-      (v) => /.+@.+\..+/.test(v) || "O E-mail precisa ser válido",
+      (v) => !!v || "Email is an essential field",
+      (v) => /.+@.+\..+/.test(v) || "Email should be valid",
     ],
     textArea: "",
     textAreaRules: [
-      (v) => !!v || "O campo de texto é obrigatório",
-      (v) => (v && v.length >= 10) || "Mínimo de 10 caracteres",
+      (v) => !!v || "Message is an essential field",
+      (v) => (v && v.length >= 10) || "Message should be longer than 10 letters",
     ],
     lazy: false,
     snackbar: {

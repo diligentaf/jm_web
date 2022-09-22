@@ -2,28 +2,31 @@
   <v-footer dark padless>
     <v-card flat tile class="secondary white--text text-center">
       <v-card-text>
-        <v-btn color="#171b34">
+        <v-btn color="#171b34" icon target="_blank" href="https://twitter.com/JmValidator">
           <v-img
             :src="feature[2].img"
             max-width="24px"
             color="white"
             class="d-block ml-auto mr-auto"
+            :class="{ 'zoom-efect': hover }"
           ></v-img>
         </v-btn>
-        <v-btn color="#171b34">
+        <v-btn color="#171b34" icon target="_blank" href="https://discord.gg/sWUjDnbu">
           <v-img
           :src="feature[0].img"
           max-width="24px"
           color="white"
           class="d-block ml-auto mr-auto"
+          :class="{ 'zoom-efect': hover }"
           ></v-img>
-        </v-btn>
-        <v-btn color="#171b34">
+        </v-btn> 
+        <v-btn color="#171b34" icon target="_blank" href="https://t.me/jmvalidator">
           <v-img
           :src="feature[1].img"
             max-width="24px"
             color="white"
             class="d-block ml-auto mr-auto"
+            :class="{ 'zoom-efect': hover }"
           ></v-img>
         </v-btn>
       </v-card-text>
