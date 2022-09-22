@@ -2,15 +2,32 @@
   <v-footer dark padless>
     <v-card flat tile class="secondary white--text text-center">
       <v-card-text>
-        <v-btn
-          v-for="(icon, i) in icons"
-          :key="i"
-          class="mx-4 white--text"
-          :href="icon.link"
-          target="_blank"
-          icon
-        >
-          <v-icon size="24px">{{ icon.text }}</v-icon>
+        <v-btn color="#171b34">
+          <v-img
+            :src="feature[2].img"
+            max-width="24px"
+            color="white"
+            class="d-block ml-auto mr-auto"
+            :class="{ 'zoom-efect': hover }"
+          ></v-img>
+        </v-btn>
+        <v-btn color="#171b34">
+          <v-img
+          :src="feature[0].img"
+          max-width="24px"
+          color="white"
+          class="d-block ml-auto mr-auto"
+          :class="{ 'zoom-efect': hover }"
+          ></v-img>
+        </v-btn> 
+        <v-btn color="#171b34">
+          <v-img
+          :src="feature[1].img"
+            max-width="24px"
+            color="white"
+            class="d-block ml-auto mr-auto"
+            :class="{ 'zoom-efect': hover }"
+          ></v-img>
         </v-btn>
       </v-card-text>
 
@@ -37,24 +54,20 @@
 <script>
 export default {
   data: () => ({
-    icons: [
-      {
-        text: "mdi-facebook",
-        link: "",
-      },
-      {
-        text: "mdi-twitter",
-        link: "",
-      },
-      {
-        text: "mdi-linkedin",
-        link: "",
-      },
-      {
-        text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
-      },
-    ],
+    feature: [
+        {
+          img: require("@/assets/img/icons8-discord-48.png"),
+          link: "https://t.me/jmvalidator"
+        },
+        {
+          img: require("@/assets/img/icons8-telegram-app-48.png"),
+          link: "https://discord.gg/sWUjDnbu"
+        },
+        {
+          img: require("@/assets/img/icons8-twitter-48.png"),
+          link: "https://twitter.com/JmValidator"
+        },
+      ],
   }),
 };
 </script>
