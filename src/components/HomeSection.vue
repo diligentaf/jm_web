@@ -76,6 +76,7 @@
     <v-container fluid id="features" class="mt-2">
       <v-row align="center" justify="center">
         <v-col cols="10">
+          <h1>Networks</h1><br></br>
           <v-row align="center" justify="space-around">
             <!-- <v-col cols="12" class="text-center">
               <h1 class="font-weight-light display-2">Title</h1>
@@ -104,9 +105,18 @@
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
-                  <h4 class="font-weight-regular subtitle-1">
+                  <!-- <h4 class="font-weight-regular subtitle-1">
                     {{ feature.text }}
-                  </h4>
+                  </h4> -->
+                  <v-btn
+                  v-bind="size"
+                  rounded
+                  outlined
+                  color="blue"
+                  class="mt-6"
+              >
+                Stake on {{ feature.title }}
+              </v-btn>
                 </v-card>
               </v-hover>
             </v-col>
@@ -137,18 +147,18 @@ export default {
       videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
+          img: require("@/assets/img/osmo.png"),
+          title: "Osmosis",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
+          img: require("@/assets/img/evmos.png"),
+          title: "Evmos",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
+          img: require("@/assets/img/ethereum.png"),
+          title: "Ethereum",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
       ],
