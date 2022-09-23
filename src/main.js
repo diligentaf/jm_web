@@ -7,6 +7,7 @@ import VueYouTubeEmbed from 'vue-youtube-embed'
 
 Vue.use(VueYouTubeEmbed)
 Vue.config.productionTip = false
+Vue.config.silent=true
 
 // firebase.initializeApp({
 //  Configurações do seu app
