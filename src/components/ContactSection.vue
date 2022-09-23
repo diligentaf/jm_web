@@ -1,7 +1,7 @@
 <template>
   <section class="pb-8" id="contact">
     <div class="partners">
-      <h1 class="text-center pt-6 font-weight-light display-2">JMNODE is Hiring</h1><br></br>
+      <h1 class="text-center pt-6 font-weight-light display-2">🔥 JMNODE is Hiring 🔥</h1><br></br>
       <v-container fluid class="text-center">
         <v-row align="center" justify="center">
           <v-card-text class="white--text pt-0 subtitle-1">
@@ -18,7 +18,10 @@
             Our team is currently distributed across the United States and Asia.
           </v-card-text>
           <v-card-text class="white--text pt-0 subtitle-1">
-            Contact us on Twitter and Discord and please consider checking for job openings
+            Contact us ✉️ : moog@jmnode.com
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            Please consider checking for job openings on Twitter and Discord
           </v-card-text>
           <v-card-text class="white--text pt-0 subtitle-1">
             ⬇️

@@ -4,11 +4,11 @@
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <img src="@/assets/img/logo.png" alt="Logo" />
+            <v-img src="@/assets/img/JMTwitter.png" max-width="50px" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">Calango</v-list-item-title>
-            <v-list-item-subtitle>WEB</v-list-item-subtitle>
+            <v-list-item-title class="title">JMNODE</v-list-item-title>
+            <v-list-item-subtitle>💻</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -31,7 +31,7 @@
 
     <v-app-bar app :color="color" :flat="flat" dark class="px-15" :class="{ expand: flat }">
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="50px" />
+        <v-img src="@/assets/img/JMTwitter.png" max-width="50px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="mr-4" v-if="isXs" />
@@ -64,9 +64,9 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "Network", "#features"],
-      ["mdi-download-box-outline", "Products", "#download"],
-      ["mdi-currency-usd", "Achievements", "#pricing"],
+      ["mdi-access-point-network", "Network", "#features"],
+      ["mdi-code-not-equal-variant", "Products", "#download"],
+      ["mdi-code-braces-box", "Achievements", "#pricing"],
       ["mdi-email-outline", "We're Hiring!", "#contact"],
     ],
   }),
