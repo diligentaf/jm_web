@@ -48,9 +48,9 @@
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
-                src="@/assets/img/ill1.svg"
+                src="@/assets/img/role.gif"
                 class="d-block ml-auto mr-auto"
-                max-width="400px"
+                max-width="200px"
               />
             </v-col>
           </v-row>
@@ -62,8 +62,8 @@
 
 <style scoped>
 #about {
-  background-color: #f4f7f5;
+  /* background-color: #f4f7f5; */
   /* background-color: transparent; */
-  /* background-color: hsla(0, 100%, 50%, 0.1); */
+  background-color: rgba(255, 255, 255, 0.8);
 }
 </style>

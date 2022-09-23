@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <!-- <v-parallax dark src="@/assets/img/web_background.png" height="750"> -->
-    <v-parallax dark src="@/assets/img/triangle.gif" height="950">
+    <v-parallax dark src="@/assets/img/triangle.gif" height="1400">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
@@ -19,7 +19,7 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                We run following nodes
+                Networks We Run
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
             </v-col>
@@ -27,21 +27,12 @@
           </v-row>
         </v-col>
       </v-row>
-      <div class="svg-border-waves text-white">
-        <v-img src="@/assets/img/borderWaves.svg" />
-      </div>
     </v-parallax>
     <v-container fluid id="features" class="mt-2">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <h1>Networks</h1><br></br>
           <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </h1>
-            </v-col> -->
             <v-col
               cols="12"
               sm="4"
@@ -63,9 +54,9 @@
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
-                  <!-- <h4 class="font-weight-regular subtitle-1">
+                  <h4 class="font-weight-regular subtitle-1">
                     {{ feature.text }}
-                  </h4> -->
+                  </h4>
                   <v-btn
                   v-bind="size"
                   rounded
@@ -82,9 +73,6 @@
         </v-col>
       </v-row>
     </v-container>
-    <div class="svg-border-waves">
-      <img src="~@/assets/img/wave2.svg" />
-    </div>
   </section>
 </template>
 
