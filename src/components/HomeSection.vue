@@ -51,7 +51,7 @@
                     :src="feature.img"
                     max-width="100px"
                     class="d-block ml-auto mr-auto"
-                    :class="{ 'zoom-efect': hover }"
+                    :class="{ 'zoom-effect': hover }"
                   ></v-img>
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
                   <h4 class="font-weight-regular subtitle-1">

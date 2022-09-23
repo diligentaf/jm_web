@@ -1,8 +1,8 @@
 
 <template>
   <section id="pricing" class="pb-8" >
-    <h1 class="text-center pt-6 font-weight-light display-2">Hackathon</h1>
     <v-container fluid>
+      <h1 class="hackathon">Hackathon</h1>
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%"  :elevation="hover ? 24 : 20"
@@ -225,6 +225,11 @@ ul {
 </style>
 
 <style scoped>
+.hackathon {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
 .partnerlist {
   color: white;
   font-size: 30px;
