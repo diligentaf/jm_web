@@ -197,9 +197,6 @@ export default {
     }
   }
 }
-</style>
-
-<style>
 .btn-play {
   transition: 0.1s;
 }
@@ -226,7 +223,7 @@ export default {
 }
 
 .cardColor {
-   background-color: rgba(0, 0, 0, 0.8) !important;
+   background-color: rgba(0, 0, 0, 0.7) !important;
    border-color: white !important;
  }
 .card {
@@ -252,9 +249,6 @@ export default {
   transform: translateY(-20px);
   transition: 0.5s ease-out;
 }
-</style>
-
-<style>
 section {
   position: relative;
 }

@@ -1,4 +1,5 @@
 <template>
+  <section class="pb-8">
   <v-footer dark padless>
     <v-card flat tile class="secondary white--text text-center">
       <v-card-text>
@@ -31,18 +32,14 @@
         </v-btn>
       </v-card-text>
  
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
-      </v-card-text>
- 
       <v-divider></v-divider>
  
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>JMNODE</strong>
       </v-card-text>
     </v-card>
   </v-footer>
+  </section>
 </template>
  
 <style scoped>
