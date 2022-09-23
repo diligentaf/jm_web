@@ -1,3 +1,4 @@
+
 <template>
   <section id="pricing" class="pb-8">
     <v-container fluid>
@@ -12,8 +13,10 @@
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
-                        <div class="circle2">
+                        <div class="circle2"  @mouseenter="hover = true"
+                        @mouseleave="hover = false">
                           <v-img src="~@/assets/img/osmo.png"></v-img>
+                                                
                         </div>
                       </div>
                     </div>
