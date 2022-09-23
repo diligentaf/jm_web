@@ -1,6 +1,5 @@
 <template>
   <section id="hero">
-    <!-- <v-parallax dark src="@/assets/img/web_background.png" height="750"> -->
     <v-parallax dark src="@/assets/img/triangle.gif" height="1400">
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -31,7 +30,7 @@
     <v-container fluid id="features" class="mt-2">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <h1>Networks</h1><br></br>
+          <h1 class="display-3 white--text">Networks</h1><br></br>
           <v-row align="center" justify="space-around">
             <v-col
               cols="12"
@@ -42,7 +41,7 @@
             >
               <v-hover v-slot:default="{ hover }">
                 <v-card
-                  class="card"
+                  class="card cardColor"
                   shaped
                   :elevation="hover ? 10 : 4"
                   :class="{ up: hover }"
@@ -53,18 +52,21 @@
                     class="d-block ml-auto mr-auto"
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
-                  <h1 class="font-weight-regular">{{ feature.title }}</h1>
+                  <h1 class="font-weight-regular">
+                    <!-- {{ feature.title }} -->
+                  </h1>
                   <h4 class="font-weight-regular subtitle-1">
-                    {{ feature.text }}
+                    <!-- {{ feature.text }} -->
                   </h4>
                   <v-btn
                   v-bind="size"
                   rounded
                   outlined
-                  color="blue"
+                  color="white"
                   class="mt-6"
+                  @click="openWebsite(feature.link)"
               >
-                Stake on {{ feature.title }}
+                {{ feature.title }}
               </v-btn>
                 </v-card>
               </v-hover>
@@ -89,17 +91,20 @@ export default {
         {
           img: require("@/assets/img/osmo.png"),
           title: "Osmosis",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          link: "https://osmosis.zone/"
         },
         {
           img: require("@/assets/img/evmos.png"),
           title: "Evmos",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          link: "https://evmos.org/"
         },
         {
           img: require("@/assets/img/ethereum.png"),
           title: "Ethereum",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          link: "https://ethereum.org/en/"
         },
       ],
     };
@@ -112,6 +117,9 @@ export default {
     },
   },
   methods: {
+    openWebsite(content) {
+      window.open(content, '_blank');
+    },
     ready(event) {
       this.player = event.target;
     },
@@ -162,7 +170,7 @@ export default {
       stroke-dashoffset: 0;
       opacity: 1;
       stroke: white;
-      animation: nudge 0.7s ease-in-out;
+      animation: nudge 0.1s ease-in-out;
 
       @keyframes nudge {
         0% {
@@ -193,7 +201,7 @@ export default {
 
 <style>
 .btn-play {
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .svg-border-waves .v-image {
@@ -217,8 +225,12 @@ export default {
   z-index: -1;
 }
 
+.cardColor {
+   background-color: rgba(0, 0, 0, 0.8) !important;
+   border-color: white !important;
+ }
 .card {
-  min-height: 300px;
+  min-height: 30px;
   padding: 10px;
   transition: 0.5s ease-out;
 }
