@@ -29,7 +29,8 @@
 
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/img/bgMain.png");
+  /* background-image: url("~@/assets/img/circle_moving.gif"); */
+  background-image: url("~@/assets/img/d.gif");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

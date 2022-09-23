@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">Network</h1>
+              <h1 class="font-weight-light display-2">ietwork</h1>
               <h1 class="font-weight-light display-1 mb-3">
                 Lorem ipsum dolor!
               </h1>
@@ -17,9 +17,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Secure the Internet of Blockchains and earn rewards
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -50,9 +48,9 @@
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
-                src="@/assets/img/ill1.svg"
+                src="@/assets/img/role.gif"
                 class="d-block ml-auto mr-auto"
-                max-width="400px"
+                max-width="200px"
               />
             </v-col>
           </v-row>
@@ -64,6 +62,8 @@
 
 <style scoped>
 #about {
-  background-color: #f4f7f5;
+  /* background-color: #f4f7f5; */
+  /* background-color: transparent; */
+  background-color: rgba(255, 255, 255, 0.8);
 }
 </style>
