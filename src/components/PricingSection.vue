@@ -1,7 +1,9 @@
 <template>
+
   <section id="pricing" class="pb-8">
     <h1 class="text-center pt-6 font-weight-light display-3 white--text">Hackathon Winners From 👇</h1>
     <v-container fluid>
+      <h1 class="hackathon">Hackathon</h1>
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%" :elevation="hover ? 24 : 20" class="mx-auto pa-6 cardColor">
