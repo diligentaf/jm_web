@@ -1,78 +1,35 @@
 <template>
   <section class="pb-8" id="contact">
-    <v-container fluid>
-      <v-row align="center" justify="center">
-        <v-col cols="10">
-          <v-row justify="center">
-            <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contact us</h1><br></br>
-             
-              <h3 class="font-weight-light">
-                Email: moog@jmnode.com
-              </h3>
-            </v-col>
-            <v-col cols="12" sm="7">
-              <v-form ref="form" v-model="valid" :lazy-validation="lazy">
-                <v-text-field
-                    v-model="name"
-                    :rules="nameRules"
-                    label="Name"
-                    required
-                ></v-text-field>
-
-                <v-text-field
-                    v-model="email"
-                    :rules="emailRules"
-                    label="E-mail"
-                    required
-                ></v-text-field>
-
-                <v-textarea
-                    v-model="textArea"
-                    :rules="textAreaRules"
-                    label="Message"
-                    required
-                />
-
-                <v-btn
-                    :disabled="!valid"
-                    color="primary"
-                    :dark="valid"
-                    rounded
-                    block
-                    class="mt-3"
-                    @click="submit"
-                >
-                  Enviar
-                </v-btn>
-              </v-form>
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
-    </v-container>
-    <div class="svg-border-waves text-white">
-      <v-img src="~@/assets/img/borderWavesBlue.svg"/>
+    <div class="partners">
+      <h1 class="text-center pt-6 font-weight-light display-2">🔥 JMNODE is Hiring 🔥</h1><br></br>
+      <v-container fluid class="text-center">
+        <v-row align="center" justify="center">
+          <v-card-text class="white--text pt-0 subtitle-1">
+            Our goal is to serve the world with sustainable blockchain ecosystem.
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            We believe working at JMNODE will push your limits and enable you to work with amazing people.
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            We believe learning and communication are equally as valuable as engineering and design talent.
+            currently distributed across the United States and Asia.
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            Our team is currently distributed across the United States and Asia.
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            Contact us ✉️ : moog@jmnode.com
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            Please consider checking for job openings on Twitter and Discord
+          </v-card-text>
+          <v-card-text class="white--text pt-0 subtitle-1">
+            ⬇️
+          </v-card-text>
+        </v-row>
+      </v-container>
     </div>
-    <v-snackbar
-        v-model="snackbar.enabled"
-        timeout="3000"
-        right
-        top
-        :color="snackbar.color"
-    >
-      {{ snackbar.text }}
 
-      <template v-slot:action="{ attrs }">
-        <v-btn
-            text
-            v-bind="attrs"
-            @click="snackbar.enabled = false"
-        >
-          Fechar
-        </v-btn>
-      </template>
-    </v-snackbar>
   </section>
 </template>
 
@@ -89,7 +46,6 @@
   width: 100%;
   overflow: hidden;
 }
-
 </style>
 
 <script>
@@ -140,3 +96,111 @@ export default {
   }
 };
 </script>
+
+<style scoped lang="scss">
+.cardColor {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-color: white !important;
+}
+
+$main_color: #283e79;
+
+ul {
+  font-size: 13px;
+  line-height: 1.5em;
+  margin: 5px 0 15px;
+  padding: 0;
+
+  li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+
+  li {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      background-color: $main_color;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-eeborder-radius: 50%;
+    }
+  }
+}
+
+.partnerlist {
+  color: white;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.partnerimg {
+  border: 2px outset white;
+}
+
+.header {
+  background-color: #283e79;
+  color: white;
+}
+
+.circle1 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #f0f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle2 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0effc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-border-rounded svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #f4f7f5;
+  z-index: -1;
+}
+
+#pricing {
+  z-index: 0;
+}
+
+.content {
+  z-index: 1;
+}
+
+svg {
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+}
+
+.partners {
+  background-color: black;
+  color: white;
+}
+</style>
