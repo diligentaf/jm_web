@@ -46,10 +46,10 @@
           <span class="mr-2">Products</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Contributor</span>
+          <span class="mr-2">Achievements</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contacts</span>
+          <span class="mr-2">We're Hiring!</span>
         </v-btn>
       </div>
     </v-app-bar>
@@ -64,10 +64,10 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "Network", "#network"],
-      ["mdi-download-box-outline", "Download", "#download"],
-      ["mdi-currency-usd", "Preços", "#pricing"],
-      ["mdi-email-outline", "Contatos", "#contact"],
+      ["mdi-information-outline", "Network", "#features"],
+      ["mdi-download-box-outline", "Products", "#download"],
+      ["mdi-currency-usd", "Achievements", "#pricing"],
+      ["mdi-email-outline", "We're Hiring!", "#contact"],
     ],
   }),
   props: {
