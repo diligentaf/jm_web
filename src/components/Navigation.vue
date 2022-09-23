@@ -39,7 +39,7 @@
         <v-btn text @click="$vuetify.goTo('#hero')">
           <span class="mr-2">Home</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#network')">
+        <v-btn text @click="$vuetify.goTo('#features')">
           <span class="mr-2">Network</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
