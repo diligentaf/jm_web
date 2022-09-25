@@ -1,7 +1,7 @@
 <template>
-  <section class="pb-8">
+  <section class="pb-8 partners">
   <v-footer dark padless>
-    <v-card flat tile class="secondary white--text text-center">
+    <v-card flat tile class="secondary white--text text-center partners">
       <v-card-text>
         <v-btn color="#171b34" icon target="_blank" href="https://twitter.com/JM_NODE">
           <v-img
@@ -68,4 +68,9 @@ export default {
   }),
 };
 </script>
- 
+
+ <style scoped lang="scss">
+.partners {
+  background-color: black;
+}
+</style>

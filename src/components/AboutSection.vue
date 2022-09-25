@@ -46,7 +46,6 @@
               <v-img
                 src="@/assets/img/a.gif"
                 class="d-block ml-auto mr-auto"
-                max-width="1000px"
               />
             </v-col>
           </v-row>

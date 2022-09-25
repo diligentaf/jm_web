@@ -1,36 +1,10 @@
 <template>
-  <section id="hero">
-    <v-parallax dark src="@/assets/img/triangle.gif" height="1400">
+  <section id="">
+    <v-container fluid id="features" class="mt-2 cardColor">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row align="center" justify="center">
-            <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Stake and Earn</h1>
-              <h1 class="font-weight-light">
-                JM helps investors compound their cryptocurrency investments <br />
-                Grow your Crypto with Secure Staking<br />
-              </h1>
-              <v-btn
-                rounded
-                outlined
-                large
-                dark
-                @click="$vuetify.goTo('#features')"
-                class="mt-5"
-              >
-                Networks We Run
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
-              </v-btn>
-            </v-col>
-            <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
-    </v-parallax>
-    <v-container fluid id="features" class="mt-2">
-      <v-row align="center" justify="center">
-        <v-col cols="10">
-          <h1 class="display-3 white--text">Networks</h1><br></br>
+          <h1 class="text-center pt-6 font-weight-light display-3 white--text cardColor">Networks</h1>
+          <br/> <br/>
           <v-row align="center" justify="space-around">
             <v-col
               cols="12"
@@ -223,7 +197,7 @@ export default {
 }
 
 .cardColor {
-   background-color: rgba(0, 0, 0, 0.7) !important;
+   background-color: rgba(0, 0, 0, 1) !important;
    border-color: white !important;
  }
 .card {
