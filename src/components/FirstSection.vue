@@ -8,8 +8,8 @@
             <v-col cols="12" md="6" xl="8">
               <h1 class="display-2 font-weight-bold mb-4">Stake and Earn</h1>
               <h1 class="font-weight-light">
-                JM helps investors compound their cryptocurrency investments <br />
-                Grow your Crypto with Secure Staking<br />
+                JM helps investors compound their cryptocurrency investments. <br />
+                Grow your crypto with secure staking<br />
               </h1>
               <v-btn
                 rounded
