@@ -3,7 +3,7 @@
     <v-container fluid id="features" class="mt-2 cardColor">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <h1 class="text-center pt-6 font-weight-light display-3 white--text cardColor">Networks</h1>
+          <h1 class="text-center pt-6 font-weight-light display-3 white--text cardColor font-weight-bold">Networks</h1>
           <br/> <br/>
           <v-row align="center" justify="space-around">
             <v-col

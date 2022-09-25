@@ -1,7 +1,7 @@
 <template>
   <section id="pricing" class="pb-8 cardColor">
     <br/> <br/>
-    <h1 class="text-center pt-6 font-weight-light display-3 white--text">Hackathon Winners From 👇</h1>
+    <h1 class="text-center pt-6 font-weight-light display-3 white--text font-weight-bold">Hackathon Winners From 👇</h1>
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -77,7 +77,7 @@
 
 
     <div class="partners">
-      <h1 class="text-center pt-6 font-weight-light display-2">Partners</h1>
+      <h1 class="text-center pt-6 font-weight-light display-2 font-weight-bold">Partners</h1>
       <v-container fluid>
         <v-row align="center" justify="center">
           <v-col cols="8">

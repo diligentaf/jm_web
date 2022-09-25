@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer v-model="drawer" app temporary dark src="@/assets/img/bgDrawer.jpg">
+    <v-navigation-drawer v-model="drawer" app temporary dark src="@/assets/img/triangle.gif">
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
