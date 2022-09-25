@@ -4,6 +4,7 @@
     <v-main class="pt-0">
       <first/>
       <home />
+      <networks/>
       <about />
       <product />
       <pricing />
@@ -43,6 +44,7 @@ import first from "./components/FirstSection";
 import navigation from "./components/Navigation";
 import foote from "./components/Footer";
 import home from "./components/HomeSection";
+import networks from "./components/NetworksSection";
 import about from "./components/AboutSection";
 // import download from "./components/DownloadSection";
 import product from "./components/ProductSection";
@@ -61,6 +63,7 @@ export default {
     product,
     pricing,
     contact,
+    networks,
   },
 
   data: () => ({

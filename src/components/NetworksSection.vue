@@ -3,51 +3,30 @@
     <v-container fluid id="features" class="mt-2 cardColor">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <h1 class="text-center pt-6 font-weight-light display-3 white--text cardColor font-weight-bold">Networks Running</h1>
-          <br/> <br/>
+          <h1 class="text-center pt-6 font-weight-light display-1 white--text cardColor font-weight-bold">Networks in contacts</h1>
+          <br /> <br />
           <v-row align="center" justify="space-around">
-            <v-col
-              cols="12"
-              sm="4"
-              class="text-center"
-              v-for="(feature, i) in features"
-              :key="i"
-            >
+            <v-col cols="12" sm="4" class="text-center" v-for="(feature, i) in features" :key="i">
               <v-hover v-slot:default="{ hover }">
-                <v-card
-                  class="card cardColor"
-                  shaped
-                  :elevation="hover ? 10 : 4"
-                  :class="{ up: hover }"
-                >
-                  <v-img
-                    :src="feature.img"
-                    max-width="100px"
-                    class="d-block ml-auto mr-auto"
-                    :class="{ 'zoom-effect': hover }"
-                  ></v-img>
+                <v-card class="card cardColor" shaped :elevation="hover ? 10 : 4" :class="{ up: hover }">
+                  <v-img :src="feature.img" max-width="100px" class="d-block ml-auto mr-auto"
+                    :class="{ 'zoom-effect': hover }"></v-img>
                   <h1 class="font-weight-regular">
                     <!-- {{ feature.title }} -->
                   </h1>
                   <h4 class="font-weight-regular subtitle-1">
                     <!-- {{ feature.text }} -->
                   </h4>
-                  <v-btn
-                  v-bind="size"
-                  rounded
-                  outlined
-                  color="white"
-                  class="mt-6"
-                  @click="openWebsite(feature.link)"
-              >
-                {{ feature.title }}
-              </v-btn>
+                  <v-btn v-bind="size" rounded outlined color="white" class="mt-6" @click="openWebsite(feature.link)">
+                    {{ feature.title }}
+                  </v-btn>
                 </v-card>
               </v-hover>
             </v-col>
           </v-row>
         </v-col>
       </v-row>
+      <br /> <br />
     </v-container>
   </section>
 </template>
@@ -63,22 +42,22 @@ export default {
       videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/img/ethereum.png"),
-          title: "Ethereum",
+          img: require("@/assets/img/Sei.png"),
+          title: "Sei",
           // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          link: "https://ethereum.org/en/"
+          link: "https://www.seinetwork.io/"
         },
         {
-          img: require("@/assets/img/osmo.png"),
-          title: "Osmosis",
+          img: require("@/assets/img/Neutron.jpg"),
+          title: "Neutron",
           // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          link: "https://osmosis.zone/"
+          link: "https://neutron.org/"
         },
         {
-          img: require("@/assets/img/evmos.png"),
-          title: "Evmos",
+          img: require("@/assets/img/Quasar.png"),
+          title: "Quasar",
           // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          link: "https://evmos.org/"
+          link: "https://www.quasar.fi/"
         },
       ],
     };
@@ -150,15 +129,19 @@ export default {
         0% {
           transform: translateX(0);
         }
+
         30% {
           transform: translateX(-5px);
         }
+
         50% {
           transform: translateX(5px);
         }
+
         70% {
           transform: translateX(-2px);
         }
+
         100% {
           transform: translateX(0);
         }
@@ -171,6 +154,7 @@ export default {
     }
   }
 }
+
 .btn-play {
   transition: 0.1s;
 }
@@ -187,6 +171,7 @@ export default {
 #hero {
   z-index: 0;
 }
+
 .svg-border-waves img {
   position: absolute;
   bottom: 0;
@@ -197,9 +182,10 @@ export default {
 }
 
 .cardColor {
-   background-color: rgba(0, 0, 0, 1) !important;
-   border-color: white !important;
- }
+  background-color: rgba(0, 0, 0, 1) !important;
+  border-color: white !important;
+}
+
 .card {
   min-height: 30px;
   padding: 10px;
@@ -223,6 +209,7 @@ export default {
   transform: translateY(-20px);
   transition: 0.5s ease-out;
 }
+
 section {
   position: relative;
 }
