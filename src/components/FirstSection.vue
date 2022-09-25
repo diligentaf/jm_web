@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <!-- <v-parallax dark src="@/assets/img/triangle.gif" height="1400"> -->
-    <v-parallax dark src="@/assets/img/triangle.gif">
+    <v-parallax dark src="@/assets/img/black.gif">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">

@@ -1,7 +1,7 @@
 <template>
   <section class="pb-8 partners" id="contact">
     <div class="partners">
-      <h1 class="text-center pt-6 font-weight-light display-2">🔥 JMNODE is Hiring 🔥</h1><br></br>
+      <h1 class="text-center pt-6 font-weight-light display-2 font-weight-bold">🔥 JMNODE is Hiring 🔥</h1><br></br>
       <v-container fluid class="text-center">
         <v-row align="center" justify="center">
           <v-card-text class="white--text pt-0 subtitle-1">

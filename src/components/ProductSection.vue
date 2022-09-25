@@ -2,7 +2,7 @@
   <div id="download" class="section">
     <br /> <br />
     <div class="partners">
-      <h1 class="text-center pt-6 font-weight-light display-3 white--text cardColor">💻 products 💻</h1>
+      <h1 class="text-center pt-6 font-weight-light display-3 white--text cardColor font-weight-bold">💻 Product 💻</h1>
       <br /> <br />
       <v-container fluid class="text-center">
         <v-row align="center" justify="center">
