@@ -3,7 +3,7 @@
   <v-footer dark padless>
     <v-card flat tile class="secondary white--text text-center partners">
       <v-card-text>
-        <v-btn color="#171b34" icon target="_blank" href="https://twitter.com/JM_NODE">
+        <v-btn color="black" icon target="_blank" href="https://twitter.com/JM_NODE">
           <v-img
             :src="feature[2].img"
             max-width="24px"
@@ -12,7 +12,7 @@
             :class="{ 'zoom-efect': hover }"
           ></v-img>
         </v-btn>
-        <v-btn color="#171b34" icon target="_blank" href="https://discord.gg/sWUjDnbu">
+        <v-btn color="black" icon target="_blank" href="https://discord.gg/sWUjDnbu">
           <v-img
           :src="feature[0].img"
           max-width="24px"
@@ -21,7 +21,7 @@
           :class="{ 'zoom-efect': hover }"
           ></v-img>
         </v-btn> 
-        <v-btn color="#171b34" icon target="_blank" href="https://t.me/jmnode">
+        <v-btn color="black" icon target="_blank" href="https://t.me/jmnode">
           <v-img
           :src="feature[1].img"
             max-width="24px"
