@@ -2,7 +2,6 @@
   <v-app>
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
-      <ilink/>
       <first/>
       <home />
       <networks/>
@@ -43,7 +42,6 @@
 <script>
 import first from "./components/FirstSection";
 import navigation from "./components/Navigation";
-import ilink from "./components/LinkSection";
 import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import networks from "./components/NetworksSection";
@@ -59,7 +57,6 @@ export default {
   components: {
     first,
     navigation,
-    ilink,
     foote,
     home,
     about,
