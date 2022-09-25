@@ -1,9 +1,8 @@
 <template>
-
-  <section id="pricing" class="pb-8">
+  <section id="pricing" class="pb-8 cardColor">
+    <br/> <br/>
     <h1 class="text-center pt-6 font-weight-light display-3 white--text">Hackathon Winners From 👇</h1>
     <v-container fluid>
-      <h1 class="hackathon">Hackathon</h1>
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%" :elevation="hover ? 24 : 20" class="mx-auto pa-6 cardColor">
@@ -270,7 +269,7 @@ export default {
 
 <style scoped lang="scss">
 .cardColor {
-   background-color: rgba(0, 0, 0, 0.5) !important;
+   background-color: rgba(0, 0, 0, 1) !important;
    border-color: white !important;
  }
 $main_color: #283e79;

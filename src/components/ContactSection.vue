@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-8" id="contact">
+  <section class="pb-8 partners" id="contact">
     <div class="partners">
       <h1 class="text-center pt-6 font-weight-light display-2">🔥 JMNODE is Hiring 🔥</h1><br></br>
       <v-container fluid class="text-center">
@@ -35,7 +35,7 @@
 
 <style scoped>
 #contact {
-  background-color: #f4f7f5;
+  background-color: black;
 }
 
 .svg-border-waves .v-image {

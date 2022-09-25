@@ -2,9 +2,10 @@
   <v-app>
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
+      <first/>
       <home />
       <about />
-      <download />
+      <product />
       <pricing />
       <contact />
     </v-main>
@@ -30,7 +31,7 @@
 <style scoped>
 .v-main {
   /* background-image: url("~@/assets/img/circle_moving.gif"); */
-  background-image: url("~@/assets/img/d.gif");
+  background-image: url("~@/assets/img/black.gif");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -38,11 +39,13 @@
 </style>
 
 <script>
+import first from "./components/FirstSection";
 import navigation from "./components/Navigation";
 import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import about from "./components/AboutSection";
-import download from "./components/DownloadSection";
+// import download from "./components/DownloadSection";
+import product from "./components/ProductSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
 
@@ -50,18 +53,19 @@ export default {
   name: "App",
 
   components: {
+    first,
     navigation,
     foote,
     home,
     about,
-    download,
+    product,
     pricing,
     contact,
   },
 
   data: () => ({
     fab: null,
-    color: "",
+    color: "black",
     flat: null,
   }),
 
