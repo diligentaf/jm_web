@@ -3,8 +3,8 @@
     <v-container fluid id="features" class="mt-2 cardColor">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <h1 class="text-center pt-6 font-weight-light display-1 white--text cardColor font-weight-bold">Networks in
-            contacts</h1>
+          <h1 class="text-center pt-6 font-weight-light display-1 white--text cardColor font-weight-bold">Networks in attempt to
+            contact</h1>
           <br /> <br /> <br />
           <v-row align="center" justify="space-around">
             <v-col cols="12" sm="4" class="text-center" v-for="(feature, i) in features" :key="i">
