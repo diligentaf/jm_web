@@ -46,7 +46,6 @@ import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import networks from "./components/NetworksSection";
 import about from "./components/AboutSection";
-// import download from "./components/DownloadSection";
 import product from "./components/ProductSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";

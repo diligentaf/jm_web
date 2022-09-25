@@ -48,43 +48,11 @@
           </v-row>
         </v-col>
       </v-row>
-  <v-footer dark padless>
-    <v-card flat tile class="secondary white--text text-center partners">
-      <v-card-text>
-        <v-btn color="black" icon target="_blank" href="https://twitter.com/JM_NODE">
-          <v-img
-            :src="feature[2].img"
-            max-width="24px"
-            color="white"
-            class="d-block ml-auto mr-auto"
-          ></v-img>
-        </v-btn>
-        <v-btn color="black" icon target="_blank" href="https://discord.gg/sWUjDnbu">
-          <v-img
-          :src="feature[0].img"
-          max-width="24px"
-          color="white"
-          class="d-block ml-auto mr-auto"
-          ></v-img>
-        </v-btn> 
-        <v-btn color="black" icon target="_blank" href="https://t.me/jmnode">
-          <v-img
-          :src="feature[1].img"
-            max-width="24px"
-            color="white"
-            class="d-block ml-auto mr-auto"
-          ></v-img>
-        </v-btn>
-      </v-card-text>
-    </v-card>
-  </v-footer>
     </v-container>
-    <br/><br/><br/>
   </section>
 </template>
 
 <script>
-
 export default {
   components: {
   },
@@ -156,12 +124,10 @@ export default {
   -webkit-transition: all 0.5s ease-in-out;
   opacity: 0.3;
 }
-
 .playBut {
   /*  border: 1px solid red;*/
   display: inline-block;
   -webkit-transition: all 0.5s ease;
-
   .triangle {
     -webkit-transition: all 0.7s ease-in-out;
     stroke-dasharray: 240;
@@ -169,14 +135,12 @@ export default {
     stroke: white;
     transform: translateY(0);
   }
-
   &:hover {
     .triangle {
       stroke-dashoffset: 0;
       opacity: 1;
       stroke: white;
       animation: nudge 0.1s ease-in-out;
-
       @keyframes nudge {
         0% {
           transform: translateX(0);
@@ -195,7 +159,6 @@ export default {
         }
       }
     }
-
     .circle {
       stroke-dashoffset: 0;
       opacity: 1;
@@ -205,7 +168,6 @@ export default {
 .btn-play {
   transition: 0.1s;
 }
-
 .svg-border-waves .v-image {
   position: absolute;
   bottom: 0;
@@ -214,7 +176,6 @@ export default {
   width: 100%;
   overflow: hidden;
 }
-
 #hero {
   z-index: 0;
 }
@@ -226,7 +187,6 @@ export default {
   margin-bottom: -2px;
   z-index: -1;
 }
-
 .cardColor {
    background-color: rgba(0, 0, 0, 1) !important;
    border-color: white !important;
@@ -236,20 +196,16 @@ export default {
   padding: 10px;
   transition: 0.5s ease-out;
 }
-
 .card .v-image {
   margin-bottom: 15px;
   transition: 0.75s;
 }
-
 .card h1 {
   margin-bottom: 10px;
 }
-
 .zoom-efect {
   transform: scale(1.1);
 }
-
 .up {
   transform: translateY(-20px);
   transition: 0.5s ease-out;
