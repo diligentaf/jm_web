@@ -34,6 +34,20 @@
         <v-img src="@/assets/img/JMTwitter.png" max-width="50px" />
       </v-toolbar-title>
       <v-spacer />
+      <!-- moog: logo -->
+      <v-card flat class="cardColor d-flex align-center">
+        <v-card-text>
+          <v-btn color="" icon target="_blank" href="https://twitter.com/JM_NODE">
+            <v-img src="@/assets/img/icons8-twitter-48.png" max-width="24px" color="" class=""></v-img>
+          </v-btn>
+          <v-btn color="" icon target="_blank" href="https://discord.gg/sWUjDnbu">
+            <v-img src="@/assets/img/icons8-discord-48.png" max-width="24px" color="" class=""></v-img>
+          </v-btn>
+          <v-btn color="" icon target="_blank" href="https://t.me/jmnode">
+            <v-img src="@/assets/img/icons8-telegram-app-48.png" max-width="24px" color="" class=""></v-img>
+          </v-btn>
+        </v-card-text>
+      </v-card>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="mr-4" v-if="isXs" />
       <div v-else>
         <v-btn text @click="$vuetify.goTo('#hero')">
@@ -60,6 +74,17 @@
 <script>
 export default {
   data: () => ({
+    feature: [
+      {
+        img: require("@/assets/img/icons8-discord-48.png"),
+      },
+      {
+        img: require("@/assets/img/icons8-telegram-app-48.png"),
+      },
+      {
+        img: require("@/assets/img/icons8-twitter-48.png"),
+      },
+    ],
     drawer: null,
     isXs: false,
     items: [
@@ -97,6 +122,15 @@ export default {
 </script>
 
 <style scoped>
+.cardColor {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  height: 2px !important;
+  white-space: nowrap;
+  word-break: normal;
+  /* overflow: hidden ; */
+  text-overflow: ellipsis;
+}
+
 .v-toolbar {
   transition: 0.6s;
 }
