@@ -23,7 +23,7 @@
                     </svg>
                   </a>
                   <v-btn @click.stop="dialog = true" class="playBut">watch video</v-btn>
-                  <v-btn @click="openWeb" class="subheading ml-2 mb-0">open website</v-btn>
+                  <v-btn @click="openWeb" class="subheading ml-2 mb-0">open Evridge</v-btn>
                 </div>
               </v-card-title>
             </v-card>
