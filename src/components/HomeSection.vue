@@ -67,12 +67,12 @@ export default {
           // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           link: "https://ethereum.org/en/"
         },
-        {
-          img: require("@/assets/img/osmo.png"),
-          title: "Osmosis",
-          // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          link: "https://osmosis.zone/"
-        },
+        // {
+        //   img: require("@/assets/img/osmo.png"),
+        //   title: "Osmosis",
+        //   // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        //   link: "https://osmosis.zone/"
+        // },
         {
           img: require("@/assets/img/evmos.png"),
           title: "Evmos",

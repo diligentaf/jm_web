@@ -12,7 +12,6 @@
           </v-card-text>
           <v-card-text class="white--text pt-0 subtitle-1">
             We believe learning and communication are equally as valuable as engineering and design talent.
-            currently distributed across the United States and Asia.
           </v-card-text>
           <v-card-text class="white--text pt-0 subtitle-1">
             Our team is currently distributed across the United States and Asia.
