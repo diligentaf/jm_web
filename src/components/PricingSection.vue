@@ -7,9 +7,8 @@
         <v-col cols="10">
           <v-card style="width: 100%" :elevation="hover ? 24 : 20" class="mx-auto pa-6 cardColor">
 
-            <!-- <v-divider class="my-6"></v-divider> -->
             <v-row class="text-center">
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <v-col class="col-12 col-sm-6 col-md-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
@@ -20,9 +19,6 @@
                       </div>
                     </div>
                     <div class="white--text text-uppercase text-h3 my-2" style="color: black">Polygon</div>
-
-                    <!-- <div class="text-uppercase text-h5 mt-6 blue--text">Prize$ 20,00</div> -->
-                    
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
@@ -30,7 +26,7 @@
               </v-col>
 
 
-              <v-col class="col-12 col-md-4">
+              <v-col class="col-12 col-md-6">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
                   <v-card-text>
@@ -42,15 +38,12 @@
                       </div>
                     </div>
                     <div class="text-uppercase text-h3 my-2 white--text">Atom</div>
-
-
-                    <!-- <div class="text-uppercase text-h5 mt-6 blue--text">Prize$ 500,00</div> -->
                   </v-card-text>
                 </div>
               </v-col>
 
 
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <!-- <v-col class="col-12 col-sm-6 col-md-4">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
@@ -61,14 +54,12 @@
                       </div>
                     </div>
                     <div class="white--text text-uppercase text-h3 my-2">Evmos</div>
-
-
-                    <!-- <div class="text-uppercase text-h5 mt-6 blue--text">Prize$ 100,00</div> -->
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
+              </v-col> -->
+
             </v-row>
           </v-card>
         </v-col>
