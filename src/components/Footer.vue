@@ -3,7 +3,7 @@
   <v-footer dark padless>
     <v-card flat tile class="secondary white--text text-center partners">
       <v-card-text>
-        <v-btn color="black" icon target="_blank" href="https://twitter.com/JM_NODE">
+        <v-btn color="black" icon target="_blank" href="https://twitter.com/sigma_town">
           <v-img
             :src="feature[2].img"
             max-width="24px"
@@ -35,7 +35,7 @@
       <v-divider></v-divider>
  
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>JMNODE</strong>
+        {{ new Date().getFullYear() }} — <strong>Sigma</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -62,7 +62,7 @@ export default {
         },
         {
           img: require("@/assets/img/icons8-twitter-48.png"),
-          link: "https://twitter.com/JmValidator"
+          link: "https://twitter.com/sigma_town"
         },
       ],
   }),

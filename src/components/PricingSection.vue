@@ -82,28 +82,6 @@
                       <div class="flex-center">
                         <div>
                           <div class="partnerimg">
-                            <v-img src="~@/assets/img/bwl_logo.png" light max-width="200"></v-img>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="partnerlist">Blockwave Labs</div>
-                      <v-hover v-slot="{ hover }">
-
-                      </v-hover>
-
-                    </v-card-text>
-                    <!-- <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider> -->
-                  </div>
-                  <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-                </v-col>
-
-
-                <v-col>
-                  <div class="flex-center">
-                    <v-card-text>
-                      <div class="flex-center">
-                        <div>
-                          <div class="partnerimg">
                             <v-img src="~@/assets/img/nonce_logo.png" max-width="200" />
                           </div>
                         </div>
