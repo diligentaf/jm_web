@@ -17,9 +17,6 @@
             Our team is currently distributed across the United States and Asia.
           </v-card-text>
           <v-card-text class="white--text pt-0 subtitle-1">
-            Contact us ✉️ : moog@jmnode.com
-          </v-card-text>
-          <v-card-text class="white--text pt-0 subtitle-1">
             Please consider checking for job openings on Twitter and Discord
           </v-card-text>
           <v-card-text class="white--text pt-0 subtitle-1">
