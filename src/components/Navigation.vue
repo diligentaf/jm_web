@@ -4,11 +4,11 @@
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <v-img src="@/assets/img/JMTwitter.png" max-width="50px" />
+            <v-img src="@/assets/img/SigmaCircle.png" max-width="50px" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">JMNODE</v-list-item-title>
-            <v-list-item-subtitle>💻</v-list-item-subtitle>
+            <v-list-item-title class="title">Sigma</v-list-item-title>
+            <v-list-item-subtitle>🟡Σ🟡</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -31,13 +31,13 @@
 
     <v-app-bar app :color="color" :flat="flat" dark class="px-15" :class="{ expand: flat }">
       <v-toolbar-title>
-        <v-img src="@/assets/img/JMTwitter.png" max-width="50px" />
+        <v-img src="@/assets/img/SigmaCircle.png" max-width="50px" />
       </v-toolbar-title>
       <v-spacer />
       <!-- moog: logo -->
       <v-card flat class="cardColor d-flex align-center">
         <v-card-text>
-          <v-btn color="" icon target="_blank" href="https://twitter.com/JM_NODE">
+          <v-btn color="" icon target="_blank" href="https://twitter.com/sigma_town">
             <v-img src="@/assets/img/icons8-twitter-48.png" max-width="24px" color="" class=""></v-img>
           </v-btn>
           <v-btn color="" icon target="_blank" href="https://discord.gg/sWUjDnbu">
