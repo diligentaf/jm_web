@@ -63,9 +63,6 @@
         <youtube :video-id="videoId" @ready="ready" @playing="playing"></youtube>
       </v-card>
     </v-dialog>
-    <div class="svg-border-waves">
-      <img src="~@/assets/img/wave2.svg" />
-    </div>
   </div>
 </template>
 
