@@ -40,10 +40,10 @@
           <v-btn color="" icon target="_blank" href="https://twitter.com/sigma_town">
             <v-img src="@/assets/img/icons8-twitter-48.png" max-width="24px" color="" class=""></v-img>
           </v-btn>
-          <v-btn color="" icon target="_blank" href="https://discord.gg/sWUjDnbu">
+          <v-btn color="" icon target="_blank" href="https://discord.gg/DpNzbNn4">
             <v-img src="@/assets/img/icons8-discord-48.png" max-width="24px" color="" class=""></v-img>
           </v-btn>
-          <v-btn color="" icon target="_blank" href="https://t.me/jmnode">
+          <v-btn color="" icon target="_blank" href="https://t.me/sigma_town">
             <v-img src="@/assets/img/icons8-telegram-app-48.png" max-width="24px" color="" class=""></v-img>
           </v-btn>
         </v-card-text>

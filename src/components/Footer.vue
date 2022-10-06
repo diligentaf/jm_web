@@ -12,7 +12,7 @@
             :class="{ 'zoom-efect': hover }"
           ></v-img>
         </v-btn>
-        <v-btn color="black" icon target="_blank" href="https://discord.gg/sWUjDnbu">
+        <v-btn color="black" icon target="_blank" href="https://discord.gg/DpNzbNn4">
           <v-img
           :src="feature[0].img"
           max-width="24px"
@@ -21,7 +21,7 @@
           :class="{ 'zoom-efect': hover }"
           ></v-img>
         </v-btn> 
-        <v-btn color="black" icon target="_blank" href="https://t.me/jmnode">
+        <v-btn color="black" icon target="_blank" href="https://t.me/sigma_town">
           <v-img
           :src="feature[1].img"
             max-width="24px"
@@ -58,7 +58,7 @@ export default {
         },
         {
           img: require("@/assets/img/icons8-telegram-app-48.png"),
-          link: "https://discord.gg/sWUjDnbu"
+          link: "https://discord.gg/DpNzbNn4"
         },
         {
           img: require("@/assets/img/icons8-twitter-48.png"),
